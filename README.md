@@ -31,7 +31,7 @@ A simple banking Java application, utilizing Spring framework, connected to an A
 ## How to Use
 To login: Send a post request to /data/users/login with username and password in json body\
 To logout: Send a get request to /data/users/{username}/logout\
-To create user: Send a post request to /data/users with username, password, firstname, lastname, and email in json body\
+To create user: Send a post request to /data/users with username, password in json body\
 To get all users: Send a get request to /data/users\
 To delete user: Send a delete request to /data/users/{id}\
   This can only be done when logged on as the user you want to delete\
